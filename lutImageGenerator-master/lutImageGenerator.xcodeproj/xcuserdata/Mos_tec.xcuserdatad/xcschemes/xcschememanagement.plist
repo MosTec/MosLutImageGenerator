@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>lutImageGenerator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B3A960251CB3B47D00BD0564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3A9603E1CB3B47E00BD0564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3A960491CB3B47E00BD0564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

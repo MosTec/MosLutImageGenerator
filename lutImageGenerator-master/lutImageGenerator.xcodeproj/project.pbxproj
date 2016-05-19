@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A9602B1CB3B47D00BD0564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9602A1CB3B47D00BD0564 /* main.m */; };
+		B3A9602E1CB3B47D00BD0564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9602D1CB3B47D00BD0564 /* AppDelegate.m */; };
+		B3A960311CB3B47D00BD0564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A960301CB3B47D00BD0564 /* ViewController.m */; };
+		B3A960341CB3B47D00BD0564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A960321CB3B47D00BD0564 /* Main.storyboard */; };
+		B3A960361CB3B47D00BD0564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A960351CB3B47D00BD0564 /* Assets.xcassets */; };
+		B3A960391CB3B47D00BD0564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A960371CB3B47D00BD0564 /* LaunchScreen.storyboard */; };
+		B3A960441CB3B47E00BD0564 /* lutImageGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A960431CB3B47E00BD0564 /* lutImageGeneratorTests.m */; };
+		B3A9604F1CB3B47E00BD0564 /* lutImageGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9604E1CB3B47E00BD0564 /* lutImageGeneratorUITests.m */; };
+		B3FB758F1CEC6F66004C118D /* lj.CUBE in Resources */ = {isa = PBXBuildFile; fileRef = B3FB758E1CEC6F66004C118D /* lj.CUBE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A960401CB3B47E00BD0564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A9601E1CB3B47D00BD0564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A960251CB3B47D00BD0564;
+			remoteInfo = lutImageGenerator;
+		};
+		B3A9604B1CB3B47E00BD0564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A9601E1CB3B47D00BD0564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A960251CB3B47D00BD0564;
+			remoteInfo = lutImageGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3A960261CB3B47D00BD0564 /* lutImageGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lutImageGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A9602A1CB3B47D00BD0564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3A9602C1CB3B47D00BD0564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3A9602D1CB3B47D00BD0564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3A9602F1CB3B47D00BD0564 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3A960301CB3B47D00BD0564 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3A960331CB3B47D00BD0564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3A960351CB3B47D00BD0564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A960381CB3B47D00BD0564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3A9603A1CB3B47D00BD0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A9603F1CB3B47E00BD0564 /* lutImageGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lutImageGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A960431CB3B47E00BD0564 /* lutImageGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lutImageGeneratorTests.m; sourceTree = "<group>"; };
+		B3A960451CB3B47E00BD0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A9604A1CB3B47E00BD0564 /* lutImageGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lutImageGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A9604E1CB3B47E00BD0564 /* lutImageGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lutImageGeneratorUITests.m; sourceTree = "<group>"; };
+		B3A960501CB3B47E00BD0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FB758E1CEC6F66004C118D /* lj.CUBE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lj.CUBE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A960231CB3B47D00BD0564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9603C1CB3B47E00BD0564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A960471CB3B47E00BD0564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A9601D1CB3B47D00BD0564 = {
+			isa = PBXGroup;
+			children = (
+				B3A960281CB3B47D00BD0564 /* lutImageGenerator */,
+				B3A960421CB3B47E00BD0564 /* lutImageGeneratorTests */,
+				B3A9604D1CB3B47E00BD0564 /* lutImageGeneratorUITests */,
+				B3A960271CB3B47D00BD0564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A960271CB3B47D00BD0564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A960261CB3B47D00BD0564 /* lutImageGenerator.app */,
+				B3A9603F1CB3B47E00BD0564 /* lutImageGeneratorTests.xctest */,
+				B3A9604A1CB3B47E00BD0564 /* lutImageGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A960281CB3B47D00BD0564 /* lutImageGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9602C1CB3B47D00BD0564 /* AppDelegate.h */,
+				B3A9602D1CB3B47D00BD0564 /* AppDelegate.m */,
+				B3A9602F1CB3B47D00BD0564 /* ViewController.h */,
+				B3A960301CB3B47D00BD0564 /* ViewController.m */,
+				B3FB758E1CEC6F66004C118D /* lj.CUBE */,
+				B3A960321CB3B47D00BD0564 /* Main.storyboard */,
+				B3A960351CB3B47D00BD0564 /* Assets.xcassets */,
+				B3A960371CB3B47D00BD0564 /* LaunchScreen.storyboard */,
+				B3A9603A1CB3B47D00BD0564 /* Info.plist */,
+				B3A960291CB3B47D00BD0564 /* Supporting Files */,
+			);
+			path = lutImageGenerator;
+			sourceTree = "<group>";
+		};
+		B3A960291CB3B47D00BD0564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9602A1CB3B47D00BD0564 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A960421CB3B47E00BD0564 /* lutImageGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3A960431CB3B47E00BD0564 /* lutImageGeneratorTests.m */,
+				B3A960451CB3B47E00BD0564 /* Info.plist */,
+			);
+			path = lutImageGeneratorTests;
+			sourceTree = "<group>";
+		};
+		B3A9604D1CB3B47E00BD0564 /* lutImageGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9604E1CB3B47E00BD0564 /* lutImageGeneratorUITests.m */,
+				B3A960501CB3B47E00BD0564 /* Info.plist */,
+			);
+			path = lutImageGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A960251CB3B47D00BD0564 /* lutImageGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A960531CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGenerator" */;
+			buildPhases = (
+				B3A960221CB3B47D00BD0564 /* Sources */,
+				B3A960231CB3B47D00BD0564 /* Frameworks */,
+				B3A960241CB3B47D00BD0564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lutImageGenerator;
+			productName = lutImageGenerator;
+			productReference = B3A960261CB3B47D00BD0564 /* lutImageGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3A9603E1CB3B47E00BD0564 /* lutImageGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A960561CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGeneratorTests" */;
+			buildPhases = (
+				B3A9603B1CB3B47E00BD0564 /* Sources */,
+				B3A9603C1CB3B47E00BD0564 /* Frameworks */,
+				B3A9603D1CB3B47E00BD0564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A960411CB3B47E00BD0564 /* PBXTargetDependency */,
+			);
+			name = lutImageGeneratorTests;
+			productName = lutImageGeneratorTests;
+			productReference = B3A9603F1CB3B47E00BD0564 /* lutImageGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3A960491CB3B47E00BD0564 /* lutImageGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A960591CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGeneratorUITests" */;
+			buildPhases = (
+				B3A960461CB3B47E00BD0564 /* Sources */,
+				B3A960471CB3B47E00BD0564 /* Frameworks */,
+				B3A960481CB3B47E00BD0564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A9604C1CB3B47E00BD0564 /* PBXTargetDependency */,
+			);
+			name = lutImageGeneratorUITests;
+			productName = lutImageGeneratorUITests;
+			productReference = B3A9604A1CB3B47E00BD0564 /* lutImageGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A9601E1CB3B47D00BD0564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "穆相臣";
+				TargetAttributes = {
+					B3A960251CB3B47D00BD0564 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B3A9603E1CB3B47E00BD0564 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B3A960251CB3B47D00BD0564;
+					};
+					B3A960491CB3B47E00BD0564 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B3A960251CB3B47D00BD0564;
+					};
+				};
+			};
+			buildConfigurationList = B3A960211CB3B47D00BD0564 /* Build configuration list for PBXProject "lutImageGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A9601D1CB3B47D00BD0564;
+			productRefGroup = B3A960271CB3B47D00BD0564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A960251CB3B47D00BD0564 /* lutImageGenerator */,
+				B3A9603E1CB3B47E00BD0564 /* lutImageGeneratorTests */,
+				B3A960491CB3B47E00BD0564 /* lutImageGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A960241CB3B47D00BD0564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A960391CB3B47D00BD0564 /* LaunchScreen.storyboard in Resources */,
+				B3A960361CB3B47D00BD0564 /* Assets.xcassets in Resources */,
+				B3FB758F1CEC6F66004C118D /* lj.CUBE in Resources */,
+				B3A960341CB3B47D00BD0564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9603D1CB3B47E00BD0564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A960481CB3B47E00BD0564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A960221CB3B47D00BD0564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A960311CB3B47D00BD0564 /* ViewController.m in Sources */,
+				B3A9602E1CB3B47D00BD0564 /* AppDelegate.m in Sources */,
+				B3A9602B1CB3B47D00BD0564 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9603B1CB3B47E00BD0564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A960441CB3B47E00BD0564 /* lutImageGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A960461CB3B47E00BD0564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A9604F1CB3B47E00BD0564 /* lutImageGeneratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A960411CB3B47E00BD0564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A960251CB3B47D00BD0564 /* lutImageGenerator */;
+			targetProxy = B3A960401CB3B47E00BD0564 /* PBXContainerItemProxy */;
+		};
+		B3A9604C1CB3B47E00BD0564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A960251CB3B47D00BD0564 /* lutImageGenerator */;
+			targetProxy = B3A9604B1CB3B47E00BD0564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3A960321CB3B47D00BD0564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A960331CB3B47D00BD0564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3A960371CB3B47D00BD0564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A960381CB3B47D00BD0564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3A960511CB3B47E00BD0564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3A960521CB3B47E00BD0564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A960541CB3B47E00BD0564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lutImageGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3A960551CB3B47E00BD0564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lutImageGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3A960571CB3B47E00BD0564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lutImageGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lutImageGenerator.app/lutImageGenerator";
+			};
+			name = Debug;
+		};
+		B3A960581CB3B47E00BD0564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lutImageGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lutImageGenerator.app/lutImageGenerator";
+			};
+			name = Release;
+		};
+		B3A9605A1CB3B47E00BD0564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lutImageGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lutImageGenerator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B3A9605B1CB3B47E00BD0564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lutImageGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mos-tec.lutImageGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lutImageGenerator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A960211CB3B47D00BD0564 /* Build configuration list for PBXProject "lutImageGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A960511CB3B47E00BD0564 /* Debug */,
+				B3A960521CB3B47E00BD0564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A960531CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A960541CB3B47E00BD0564 /* Debug */,
+				B3A960551CB3B47E00BD0564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A960561CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A960571CB3B47E00BD0564 /* Debug */,
+				B3A960581CB3B47E00BD0564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A960591CB3B47E00BD0564 /* Build configuration list for PBXNativeTarget "lutImageGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A9605A1CB3B47E00BD0564 /* Debug */,
+				B3A9605B1CB3B47E00BD0564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A9601E1CB3B47D00BD0564 /* Project object */;
+}
